@@ -67,7 +67,7 @@ function SignupUser() {
         </label>
         <input type="text" value={phone} onChange={e => setPhone(e.target.value)}
           className='input input-bordered h-[40px] input-info mb-2 rounded-full'
-          placeholder='+91 6952563655'
+          placeholder=''
         />
 
         <label className="label label-text ">
